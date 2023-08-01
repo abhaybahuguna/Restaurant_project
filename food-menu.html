@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restraunt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <script src="https://chatrace.com/webchat/plugin.js"></script>
+  <script>ktt10.setup({ "pageId": "1127569", "headerTitle": "ABHI" });</script>
+
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="" />
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo image" width="100px"></a>
+
+      </div>
+      <ul class="menu-items">
+        <ul class="menu-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="food.html">Category</a></li>
+          <li><a href="food-menu.html">Menu</a></li>
+          <li><a href="testimonials.html">Testimonial</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">accountt</a></li>
+        </ul>
+    </div>
+
+
+    <!-- food-menu -->
+    <img src="img\menu.png" alt="Paris" class="center">
+
+    <!---------footer------------->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-2">
+            <img src="img\logo.png" alt="">
+            <p>Food that makes you say wow.</p>
+            <address>
+              Written by <a href=" abhaybahuguna141@gamil.com">ABHAY BAHUGUNA</a>.<br>
+              Email at us:<br>
+              abhaybahuguna141@gamil.com<br>
+              Dehradun, Clement town<br>
+              INDIA
+            </address>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/abhay.bahuguna.18">Facebook</a>.<br></li>
+              <li><a href="https://www.telegram/@abhaybahuguna">Telegram</a>.<br></li>
+              <li><a href="https://www.instagram.com/abhay_bahuguna_/?igshid=ZDc4ODBmNjlmNQ%3D%3D">Instagram</a>.<br>
+              </li>
+              <li><a href="https://in.linkedin.com/in/abhay-bahuguna-52345b201">Linkedin </a>.<br></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 &copy; all rights reserved by ABHAY BAHUGUNA</p>
+      </div>
+    </div>
+    <!-----------js for toggle menu------------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems")
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        }
+        else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+</body>
+
+</html>
